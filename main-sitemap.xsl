@@ -118,7 +118,7 @@
 								This KML file contains <xsl:value-of select="count(kml:kml/kml:Document/kml:Folder/kml:Placemark)"/> Locations.
 							</p>
 							<p class="expl">
-								<a href="https://bo.bistro-grammophon.de/sitemap_index.xml">&#8592; Index du plan de site</a>							</p>
+								<a href="/sitemap_index.xml">&#8592; Index du plan de site</a>							</p>
 							<table id="sitemap" cellpadding="3">
 								<thead>
 									<tr>
@@ -170,7 +170,7 @@
 									Ce plan de site XML est généré par l’extension SEO pour WordPress <a href="https://rankmath.com/" target="_blank">Rank Math</a>. C’est ce que les moteurs de recherche comme Google utilisent pour explorer et réexplorer les articles, pages, produits, images et archives de votre site.								</p>
 							
 							<p>
-								En savoir plus sur les <a href="http://sitemaps.org" target="_blank"> plans de site XML</a>.							</p>
+								En savoir plus sur les <a href="http://sitemaps.org/" target="_blank"> plans de site XML</a>.							</p>
 
 						</div>
 
@@ -213,7 +213,7 @@
 									Ce plan de site XML contient <strong><xsl:value-of select="count(sitemap:urlset/sitemap:url)"/></strong> URL.								</p>
 
 								<p class="expl">
-									<a href="https://bo.bistro-grammophon.de/sitemap_index.xml">&#8592; Index du plan de site</a>								</p>
+									<a href="/sitemap_index.xml">&#8592; Index du plan de site</a>								</p>
 
 								<table id="sitemap" cellpadding="3">
 
